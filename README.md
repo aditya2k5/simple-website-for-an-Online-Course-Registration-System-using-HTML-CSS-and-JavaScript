@@ -1,1 +1,1 @@
-# simple-website-for-an-Online-Course-Registration-System-using-HTML-CSS-and-JavaScript
+# Simple-website-for-an-Online-Course-Registration-System-using-HTML-CSS-and-JavaScript
