@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration-page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+    <header class="site-header">
+  <!-- Logo LEFT (your image.jpg) -->
+  <div class="logo-left">
+    <img src="icon.webp" alt="Amrita Vishwa Vidyapeetham" class="logo-img">
+  </div>
+  
+  <!-- Text RIGHT -->
+  <div class="title-right">
+    Amrita Vishwa Vidyapeetham
+  </div>
+</header>
+
+    <script src="script.js"></script>
+    <nav class="navbar">
+        <a href="index.html" class="nav-link">
+         <i class="fa-solid fa-house"></i>
+         <span>Home</span>
+        </a>
+        <a href="register.html"class="nav-link active">
+         <i class="fa-solid fa-address-card"></i>
+         <span>Registration</span>
+        </a>
+        <a href="contact.html" class="nav-link">
+         <i class="fa-solid fa-square-phone"></i>
+         <span>Contact</span>
+        </a>
+
+    </nav>
+    <div class="container">
+    <h2>Course Registration Form</h2>
+    <div class="form-container">
+        <form>
+            <div class="input-name">
+                <i class="fa-solid fa-user"></i>
+                <input type="text" placeholder="First Name" required class="name">
+                <span>
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" placeholder="Last Name" required class="name">
+                </span>
+            </div>
+            <div class="input-name">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" placeholder="Email Address" required class="text-name">
+            </div>
+            <div class="input-name">
+                <i class="fa-solid fa-key"></i>
+                <input type="password" placeholder="Password" required class="text-password">
+            </div>
+            <div class="input-name">
+                <i class="fa-solid fa-address-card"></i>
+                <input type="text" placeholder="Registration number" required class="text-name">
+            </div>
+            <div class="input-name">
+                <i class="fa-solid fa-user-clock"></i>
+                <input type="number" placeholder="Age" required class="text-name" min="18" max="60">
+            </div>
+            <div class="input-name">
+                <i class="fa-brands fa-discourse"></i>
+                <label for="Course">Select Course:</label>
+                <select id="Course" required class="dropdown">
+                    <option value="" disabled selected>Select your option</option>
+                    <option value="23EEE203">23EEE203-Embbeded systems</option>
+                    <option value="23CSE305">23CSE305-Data Science</option>
+                    <option value="23ECE335">23ECE335-VLSI Designing</option>
+                    <option value="23CSE306">23CSE306- AI and ML</option>
+
+                </select>
+            </div>
+            <div class="input-name">
+                <input type="submit" value="Register" class="button">
+            </div>
+
+
+        </form>
+    </div>
+
+
+    </div>
+
+    
+    
+</body>
+</html>
